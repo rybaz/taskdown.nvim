@@ -35,11 +35,11 @@ after it with the next due date.
 
 ## Installation
 
-Using lazy.nvim with a local directory:
+Using lazy.nvim:
 
 ```lua
 {
-  dir = "~/path/to/taskdown.nvim",
+  "rybaz/taskdown.nvim",
   cmd = { "TaskAgenda", "TaskFind", "TaskNew" },
   keys = {
     { "<leader>ta", "<cmd>TaskAgenda<CR>", desc = "Task: agenda" },
